@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" oncontextmenu=" return false">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    password:<input oncopy="return oncopyy()" onpaste="return onpastee()" type="text" ><br><br>
+    confirmpassword:<input onpaste="return onpastee()" type="text"><br><br>
+    <h1 id="msg" style="color:red"></h1>
+    <script>
+        var msg=document.getElementById("msg")
+        function oncopyy(){
+            msg.innerHTML="copying is Disabled";
+            return false
+        }
+        function onpastee(){
+            msg.innerHTML="pasting is Disabled";
+            return false
+        }
+        //function disabling(){
+           // return false
+        //}
+    </script>
+</body>
+</html>

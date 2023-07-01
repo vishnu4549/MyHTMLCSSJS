@@ -1,0 +1,19 @@
+.center{
+    text-align: center;
+}
+.innerPara{
+    float: left;
+    width: 20%;
+    padding: 20px;
+}
+#hh2{
+   font-family: "Inter" ,sans-serif;
+}
+#one,#two,#three,#four,#hh1{
+    color: #0F4332;
+}
+#hori{
+    color: #0F4332;
+    border: 2px solid;
+    width: 60px;
+}

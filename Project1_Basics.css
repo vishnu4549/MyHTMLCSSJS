@@ -1,0 +1,284 @@
+/* Css for the first main division*/
+#firstOuter{
+    background-color: black;
+    height: 40px;
+    padding: 10px 20px 0px 15px ;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+}
+/*.magnifier{
+    height: 2px;
+    width: 2px;
+    position: relative;
+    right: 0px;
+    bottom: 200px;
+}*/
+.firstInner{
+    text-decoration: none;
+    color: #fff;
+    float: left;
+    width: 8%;
+    padding: 5px;
+}
+#firstImage{
+    background-image: url(./../IMAGES/w3schools.jpeg);
+    background-size: 100% 100%;
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    padding-top: 500px;
+}
+.image{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 24px;
+    color: #fff;
+  }
+.image2{
+    font-family:  "Lato", sans-serif;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+  }
+
+#band{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+}
+#para1{
+    text-align: center;
+    font-style: italic;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    color: #a9a9a9;
+}
+#para2{
+    text-align: justify !important;
+    font-family: "Lato" sans-serif;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+/*Css for the second main division*/
+#secondOuter{
+    margin:0px 250px 100px 250px;
+    height: 200px;
+}
+.secondInner{
+    float: left;
+    width: 22.33%;
+    padding: 10px 0px 0px 68px;
+}
+.secondInner img{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+.para3{
+  text-align: center;
+  font-family: "Lato" sans-serif;
+  font-size: 15px;
+}
+/*#secondImage{
+    text-align: center;
+}*/
+/* CSS for the third main division*/
+#third{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background-color: #000000;
+}
+.thirdh1{
+    color: #fff;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+}
+.thirdh2{
+    color:#a9a9a9;
+    font-style: italic;
+    font-family: "Lato" sans-serif;
+    text-align: center;
+}
+.thirddiv{
+    background-color: #fff;
+    margin-left: 250px;
+    margin-right: 250px;
+    height:150px;
+}
+.clear{
+    clear: left;
+}
+.middleA1{
+    float: left;
+    margin: -12px 0px -10px 0px;
+    padding: 0px 25px 0px 0px;
+}
+.middleA{
+    margin: 25px 0px 0px 15px;
+    font-family: "Lato" sans-serif;
+    font-size: 15px;
+    color: #a9a9a9;
+}
+.middleB{
+    background-color:  #f44336;
+    color: #fff;
+    font-family: "Lato" sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    margin:15px 530px 10px 10px
+}
+.middleA2{
+    float: left;
+    margin: -18px 0px -12px 0px;
+    padding: 0px 25px 0px 0px;
+}
+.middleC{
+    margin: 25px 0px 0px 15px;
+    font-family: "Lato" sans-serif;
+    font-size: 15px;
+    color: #a9a9a9;
+}
+.middleD{
+    background-color:  #f44336;
+    color: #fff;
+    font-family: "Lato" sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    margin:15px 530px 10px 10px
+}
+.middleA3{
+    float: left;
+    margin: -10px 0px -20px 0px;
+    padding: 0px 25px 0px 0px;
+}
+.middleE{
+    margin: 15px 0px 0px 15px;
+    font-family: "Lato" sans-serif;
+    font-size: 15px;
+    color: #a9a9a9;
+}
+.middleF{
+    background-color:  #000;
+    border-radius: 80%;
+    color: #fff;
+    font-family: "Lato" sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    margin:6px 10px 10px 580px;
+}
+#thirdMain{
+    margin: 30px 250px 0px 250px;
+    height: 450px;
+}
+.float3{
+    background-color: #fff;
+    float: left;
+    width: 30%;
+    margin: 0px 10px 0px 14px;
+
+}
+.float3 img{
+    height: 250px;
+    width: 225px;
+    text-align: center;
+    background-size: cover;
+}
+#sF{
+    font-weight: bolder;
+    font-family: "Lato" sans-serif;
+    font-size: 15px;
+    color: #000000;
+    padding-left: 15px;
+}
+#sF1{
+    color: #a9a9a9;
+    font-size: 15px;
+    font-family:"Lato" sans-serif ;
+    padding-left: 15px;
+}
+.sF2{
+     padding-left: 15px;
+     color: #000;
+     font-family: "Lato" sans-serif;
+}
+.bT{
+    background-color: #000;
+    margin: 0px 90px 10px 15px;
+    padding: 10px;
+}
+.bT2{
+    text-align: center;
+    color: #fff;
+    font-family: "Lato" sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    padding-left: 15px;
+}
+/* Css for the fourth division*/
+.four,.four2{
+    margin: 0px 250px 0px 250px ;
+}
+.four h2{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 40px 0px 0px 0px ;
+}
+.four p{
+    text-align: center;
+    font-family: "Lato" sans-serif;
+    color: #a9a9a9;
+    font-style: italic;
+    font-size: 15px;
+}
+.fourdiv1{
+    font-family: "Lato" ,sans-serif;
+    font-size: 18px;
+}
+.fourdiv1 li{
+    list-style-type: none;
+    padding: 5px;
+}
+.fourdiv1,.fourdiv2{
+    float: left;
+    width: 50%;
+}
+.name{
+    font-family: "Lato" ,sans-serif;
+    float: left;
+    width: 50%;
+    margin: 18px 0px 16px 0px ;
+}
+input[type="text"],input[type="email"]{
+    height: 30px;
+}
+input[type="message"]{
+    font-family: "Lato" ,sans-serif;
+    width: 350px;
+    height: 30px;
+}
+#fourdiv3{
+    position: relative;
+    left: 55rem;
+    padding: 20px;
+    margin:15px 530px 10px 10px
+ }
+#fourdiv3 a{
+     background-color: #000;
+     color: #fff;
+     text-align: center;
+     text-decoration: none;
+     font-size: 20px ;
+     padding: 10px;  
+}
+/* Css for fifth division*/
+.five img{
+    width: 100%;
+}
+

@@ -1,0 +1,35 @@
+#first{
+    color: #0F4332;
+    text-align: center;
+}
+hr{
+    color: #20c997;
+    border: 2px solid;
+    width: 60px;
+}
+.inner{
+    float:left;
+    width:28%;
+    padding: 30px;
+}
+img{
+    height: 350px;
+    width: 350px;
+}
+.para{
+    color:#A4ACA9;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Chivo",sans-serif;
+}
+.h2{
+    color: #0F4332;
+    font-size: 20px;
+    font-weight: 700;
+}
+.h3{
+    color: #4C5753;
+    font-size: 16px;
+    font-family: "chivo",sans-serif;
+    font-weight: 400;
+}

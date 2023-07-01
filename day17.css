@@ -1,0 +1,23 @@
+#float{
+  display: flex;
+  border: 2px solid black;
+  margin: 0px 250px 0px 250px;
+}
+.select{
+    border: 2px black;
+    margin : 20px 0px 26px 90px;
+}
+#float select{
+    margin: 5px 25px 0px 25px;
+    width: 200px;
+    height: 30px;
+    padding: 0px 0px 0px 0px;
+}
+input{
+    margin:0px 0px 0px 25px ;
+    width: 192px;
+    height: 30px;
+}
+#CVlang{
+    margin:5px 25px 0px 25px;
+}

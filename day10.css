@@ -1,0 +1,11 @@
+#firstDiv{
+    background-color: #fff;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px 200px;
+}
+div img{
+    width:95%;
+    height: auto;
+    margin: 10px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <img id="printerImage" src="./../IMAGES/myphoto.jpg" onmouseover="zoomout()" onmouseout="zoomin()" style="height:100px; width: 100px; text-align: center;" >
+  
+  <script>
+     function zoomout() {
+            document.getElementById("printerImage").style.height = "300px";
+            document.getElementById("printerImage").style.width = "300px";
+
+        }
+
+        function zoomin() {
+            document.getElementById("printerImage").style.height = "100px";
+            document.getElementById("printerImage").style.width = "100px";
+        }
+  </script>
+</body>
+</html>

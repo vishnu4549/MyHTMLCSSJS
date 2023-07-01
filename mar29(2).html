@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select onchange="display()" id="opt">
+        <option>options</option>
+        <option>vishnu</option>
+        <option>shyam</option>
+    </select>
+    <h1 id="msg" style="color:tomato"></h1>
+    <script>
+        function display(){
+            x = document.getElementById("opt").value;
+            document.getElementById("msg").innerHTML=x;
+        }
+    </script>
+</body>
+</html>

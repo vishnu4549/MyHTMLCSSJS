@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>E-commerce Website</title>
+	<link rel="stylesheet" href="./../CSS/day21.css">
+</head>
+<body>
+	<header>
+		<div class="header">
+			<h1>My-Cart</h1>
+			<nav>
+				<ul>
+					<li><a href="#" id="browse-products">Browse Products</a></li>
+					<li><a href="#" id="cart">Cart</a></li>
+					<li><a href="#" id="order-history">Order History</a></li>
+					<li><a href="#" id="logout">Logout</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="container" id="login-container">
+			<h2>Login</h2>
+			<form id="login-form">
+				<label for="login-email">Email:</label>
+				<input type="email" id="login-email" name="email" required>
+				<label for="login-password">Password:</label>
+				<input type="password" id="login-password" name="password" required>
+				<button type="submit">Login</button>
+			</form>
+			<p id="login-error" class="error"></p>
+		</div>
+
+		<div class="container" id="registration-container">
+			<h2>Registration</h2>
+			<form id="registration-form">
+				<label for="registration-name">Name:</label>
+				<input type="text" id="registration-name" name="name" required>
+				<label for="registration-email">Email:</label>
+				<input type="email" id="registration-email" name="email" required>
+				<label for="registration-password">Password:</label>
+				<input type="password" id="registration-password" name="password" required>
+				<button type="submit">Register</button>
+			</form>
+			<p id="registration-error" class="error"></p>
+		</div>
+
+		<div class="container" id="browse-products-container">
+			<h2>Browse Products</h2>
+			<div class="product-list">
+				<div class="product">
+					<h3>Product 1</h3>
+					<p>Description of product 1</p>
+					<p>Price: $10</p>
+					<button class="add-to-cart" data-product-id="1">Add to Cart</button>
+				</div>
+				<div class="product">
+					<h3>Product 2</h3>
+					<p>Description of product 2</p>
+					<p>Price: $15</p>
+					<button class="add-to-cart" data-product-id="2">Add to Cart</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="container" id="manage-cart-container">
+			<h2>Cart</h2>
+			<div id="cart">
+				<p>Your cart is empty.</p>
+			</div>
+			<div id="cart-total">
+				<p>Total: $0</p>
+				<button id="place-order">Place Order</button>
+			</div>
+		</div>
+	</main>
+    <script src="./../JAVA SCRIPT/day9.js">
+
+    </script>
+    </body>
+    </html>
+
+

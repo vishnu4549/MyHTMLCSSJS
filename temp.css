@@ -1,0 +1,14 @@
+.parent-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+  }
+  
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    flex: 1;
+  }
+  

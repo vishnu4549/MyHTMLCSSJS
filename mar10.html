@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: cadetblue;
+        }
+        #userinterface>tr{
+            padding-right: 20px;
+        }
+        #searchedinterface>tr{
+            padding-right: 20px;
+        }
+        .row{
+            padding: 200px;
+        }
+        #total{
+            background-color: aqua;
+        }
+        .trr{
+            padding: 0px 100px 10px 0px ;
+        }
+
+        #th1{
+        padding: 0px 30rem 0px 20rem;
+        }
+        #th2{
+          padding: 0px 7rem 0px 15px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <input type="text" placeholder="search" id="search">
+        <button type="button" onclick="searchfilter()">Search</button>
+    <br>
+    <div>
+          <table>
+               <tr>
+                <th id="th1">Name</th>
+                <th id="th2">Price</th>
+                <th id="th3">Image</th>
+               </tr>
+               <tbody ></tbody>
+          </table>
+          <table id="userinterface" >
+
+          </table>
+    </div>
+    <div>
+        <table id="searchedinterface">
+
+        </table>
+    </div>
+    <script>
+        var display;
+        var httpRequest = new XMLHttpRequest();
+        httpRequest.open("get", "https://fakestoreapi.com/products");
+        httpRequest.send();
+        var list=document.getElementById("userinterface");
+        httpRequest.onreadystatechange = function () {
+       // console.log(httpRequest.readyState);
+        if (httpRequest.readyState == 4) {
+          // console.log(httpRequest.responseText);
+           display=JSON.parse(httpRequest.responseText);
+           //console.log(httpRequest.status);
+              var products="";
+              for(var i=0;i<display.length;i++){
+                var product=display[i];
+                products=products +"<tr>"+"<td class='trr'>" + product.title+"</td>"+"&nbsp;"
+                                  +"<td class='trr'>"+product.price+"</td>"+"&nbsp;"
+                                  +"<td class='trr'>"+"<img width='50px' heigth='50px' id='img' src=" + product.image + ">"+"</td>"+"</tr>";
+              }
+              list.innerHTML=products;
+              //console.log(product.title);
+        }
+    }
+    //console.log(display);
+    
+    function searchfilter(){
+           //location.reload();
+            console.log("i'm in search");
+            var valued=document.getElementById("search").value;
+            console.log(valued);
+            document.getElementById("userinterface").innerHTML = "";
+            var searched=document.getElementById("searchedinterface");
+            var productsearched="";
+            for(var j=0;j<display.length;j++){
+                console.log(display[j]);
+                var  productsearch=display[j];
+                 if (valued === productsearch.title){
+                 productsearched=productsearched +"<tr>"+"<td class='trr'>" + productsearch.title+"</td>"+"&nbsp;"
+                                                 +"<td class='trr'>"+productsearch.price+"</td>"+"&nbsp;"
+                                                 +"<td class='trr'>"+"<img width='50px' heigth='50px' id='img' src=" + productsearch.image + ">"+"</td>"+"</tr>";
+                console.log(productsearch.title);
+                                        }
+                                } 
+                                searched.innerHTML=productsearched;
+                        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+.firstDiv{
+    background-color: darkblue;
+}
+.vishnu{
+    font-size: 30px;
+    color: bisque;
+    padding: 20px;
+    text-align: center;
+}
+.vv{
+    background-image: url(./../IMAGES/day3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-left: 80px;
+    color:aliceblue;
+    font-size: 25px;
+    background-attachment: fixed;
+}
+.comm{
+    font-size: 25px;
+}
+a.hover{
+    background-color:blueviolet;
+}
+#contact{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+}
+#normal{
+    background-color: orangered;
+    color:white;
+    border-radius: 5px;
+}

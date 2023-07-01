@@ -1,0 +1,9 @@
+#vishnu{
+    list-style-type: none;
+    font-size: 30px;
+    color: blue;
+    text-decoration: underline black;
+}
+#marg,#marg2{
+    margin-left: 80px;
+}

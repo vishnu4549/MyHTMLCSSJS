@@ -1,0 +1,21 @@
+.profile{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    font-style: bold;
+}
+#photo{
+     height: 125px;
+     width: 125px;
+     border-radius: 70px;
+     place-items: center;
+}
+#name{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+}
+.address{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,14 @@
+#output{
+    text-align: center;
+    margin: 50px 200px;
+    padding: 30px 80px;
+    background-color: cornflowerblue;
+}
+
+h1{
+    text-decoration: underline;
+}
+p{
+    color: #fff;
+    padding: 10px;
+}

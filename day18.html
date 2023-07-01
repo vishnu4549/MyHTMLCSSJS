@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input onchange="myFunction()">
+    <input onchange="myFunction()">
+    <input onchange="myFunction()">
+    <script>
+        function myFunction() {
+        let count = 0;
+        count++;
+        // some code that increments the count
+        return count;
+      }
+
+    let finalCount = myFunction();
+    if (finalCount==3) {
+        console.log(finalCount);
+    // execute code if the count is greater than 10
+    } else {
+    // execute code if the count is 10 or less
+    }
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./../CSS/day22.css">
+</head>
+<body>
+    <div>
+        <form>
+            productid: <input type="number" id="productid" placeholder="productid" onchange="checkif()" required>
+            productname:<input type="text" id="productname" placeholder="productname" onchange="checkif()" required>
+            price: <input type="number" id="price" placeholder="price" onchange="checkif()"required>
+            description: <input type="text" id="description" placeholder="description" onchange="checkif()" required>
+            url: <input type="text" id="url" placeholder="url" onchange="checkif()" required>
+            <button onclick="getdata()" id="Sumbit" disabled>Sumbit</button>
+            <button id="clear" onclick="clear()"> Clear</button>
+        </form>
+    </div>
+    <div id="display">
+        
+    </div>
+    <script src="./../JAVA SCRIPT/day10.js">
+    </script>
+</body>
+</html>
